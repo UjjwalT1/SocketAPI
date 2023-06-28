@@ -8,7 +8,7 @@ import io.ktor.server.application.*
 fun Application.configureRouting() {
     routing {
         get("/") {
-            call.respondText("Hello World!")
+            call.respondText("Welcome to the Home Page of Socket API. Its only a server. \nThis API uses Ktor framework. To learn more about how to use this API visit here : \n")
         }
         socket()
     }
